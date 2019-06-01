@@ -1,0 +1,9 @@
+[
+  { "value": "fantasy", "label": "fantasy" },
+  { "value": "thriller", "label": "thriller" },
+  { "value": "drama", "label": "drama" },
+  { "value": "mystery", "label": "mystery" },
+  { "value": "horror", "label": "horror" },
+  { "value": "satire", "label": "satire" },
+  { "value": "computers", "label": "computers" }
+]
