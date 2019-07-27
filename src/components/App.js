@@ -8,12 +8,14 @@ import fetchBooks from './services/api';
 const mapper = books => {
   return books.map(book => {
     const { id } = book;
-    const { title } = book.volumeInfo;
-    const { authors } = book.volumeInfo;
-    const { publisher } = book.volumeInfo;
-    const { publishedDate } = book.volumeInfo;
-    const { pageCount } = book.volumeInfo;
-    const { rating } = book.volumeInfo;
+    const {
+      title,
+      authors,
+      publisher,
+      publishedDate,
+      pageCount,
+      rating,
+    } = book.volumeInfo;
     const url = book.volumeInfo.imageLinks.smallThumbnail;
     return {
       id,
@@ -36,13 +38,17 @@ export default class App extends Component {
   };
 
   componentDidMount() {
-    this.fetchBook({ query: 'react', genre: 'computers' });
+    this.fetchBook({
+      query: 'react',
+      genre: { value: 'computers', label: 'computers' },
+    });
   }
 
   fetchBook = ({ query, genre }) => {
     this.setState({ isLoading: true });
 
-    fetchBooks(query, genre)
+    const { value } = genre;
+    fetchBooks(query, value)
       .then(({ data }) => {
         this.setState({ books: mapper(data.items) });
       })

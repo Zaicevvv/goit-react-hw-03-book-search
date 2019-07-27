@@ -16,6 +16,8 @@ export default class SearchForm extends Component {
   handleSubmit = e => {
     e.preventDefault();
 
+    // const { query, genre } = this.state;
+
     this.props.onSubmit({ ...this.state });
     this.setState({ query: '' });
   };

@@ -28,6 +28,7 @@ const BookListItem = ({
 BookListItem.defaultProps = {
   rating: 0,
   publisher: ' no publisher',
+  pageCount: 0,
 };
 
 BookListItem.propTypes = {
@@ -36,7 +37,7 @@ BookListItem.propTypes = {
   authors: PropTypes.arrayOf(String).isRequired,
   publisher: PropTypes.string,
   publishedDate: PropTypes.string.isRequired,
-  pageCount: PropTypes.number.isRequired,
+  pageCount: PropTypes.number,
   rating: PropTypes.number,
 };
 
