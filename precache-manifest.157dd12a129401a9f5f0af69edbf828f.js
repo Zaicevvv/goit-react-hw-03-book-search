@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0fba6cca3d98239d409bd501f99ae823",
+    "revision": "3d857af347a04f5ede725c33b9194953",
     "url": "/goit-react-hw-03-book-search/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/goit-react-hw-03-book-search/static/js/2.6006a796.chunk.js"
   },
   {
-    "revision": "63f71d3a3465e12cf2b4",
-    "url": "/goit-react-hw-03-book-search/static/js/main.0a9f5a56.chunk.js"
+    "revision": "28e56143740a72bce7f2",
+    "url": "/goit-react-hw-03-book-search/static/js/main.c946ac9e.chunk.js"
   },
   {
     "revision": "94506de2c381820c5c24",
