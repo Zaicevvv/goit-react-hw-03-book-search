@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/goit-react-hw-03-book-search/static/js/main.c946ac9e.chunk.js",
-    "main.js.map": "/goit-react-hw-03-book-search/static/js/main.c946ac9e.chunk.js.map",
+    "main.js": "/goit-react-hw-03-book-search/static/js/main.743de599.chunk.js",
+    "main.js.map": "/goit-react-hw-03-book-search/static/js/main.743de599.chunk.js.map",
     "runtime~main.js": "/goit-react-hw-03-book-search/static/js/runtime~main.5d5bdee0.js",
     "runtime~main.js.map": "/goit-react-hw-03-book-search/static/js/runtime~main.5d5bdee0.js.map",
     "static/js/2.6006a796.chunk.js": "/goit-react-hw-03-book-search/static/js/2.6006a796.chunk.js",
     "static/js/2.6006a796.chunk.js.map": "/goit-react-hw-03-book-search/static/js/2.6006a796.chunk.js.map",
     "index.html": "/goit-react-hw-03-book-search/index.html",
-    "precache-manifest.157dd12a129401a9f5f0af69edbf828f.js": "/goit-react-hw-03-book-search/precache-manifest.157dd12a129401a9f5f0af69edbf828f.js",
+    "precache-manifest.b2a26dc3f70b274d6ea3c33789a9a96e.js": "/goit-react-hw-03-book-search/precache-manifest.b2a26dc3f70b274d6ea3c33789a9a96e.js",
     "service-worker.js": "/goit-react-hw-03-book-search/service-worker.js"
   }
 }
