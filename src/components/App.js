@@ -3,7 +3,7 @@ import genres from './genres.json';
 import SearchForm from './SearchForm/SearchForm';
 import BookList from './BookList/BookList';
 import Loader from './Loader/Loader';
-import * as api from './services/api';
+import fetchBooks from './services/api';
 
 const mapper = books => {
   return books.map(book => {
@@ -42,8 +42,7 @@ export default class App extends Component {
   fetchBook = ({ query, genre }) => {
     this.setState({ isLoading: true });
 
-    api
-      .fetchBooks(query, genre)
+    fetchBooks(query, genre)
       .then(({ data }) => {
         this.setState({ books: mapper(data.items) });
       })
